@@ -1,6 +1,7 @@
 # Neovim Configuration  
 
-A minimal Neovim configuration of mine very messy tho.  
+A minimal Neovim configuration of mine very messy tho.
+Focused on python cuz it's pretty much what I know with C# but since I'm new at this I use Visual Studio for that one lol.
 
 ## External Requirements  
 
