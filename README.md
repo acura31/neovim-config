@@ -1,22 +1,49 @@
-External Requirements:
-Basic utils: git, make, unzip, C Compiler (gcc)
-[ripgrep](https://github.com/BurntSushi/ripgrep#installation)
-Clipboard tool (xclip/xsel/win32yank or other depending on platform)
-A Nerd Font to see the icons 
+# Neovim Configuration  
 
+A minimal Neovim configuration of mine very messy tho.  
 
+## External Requirements  
 
+Before installing, ensure you have the following dependencies installed on your system:  
 
-Installation :
-Linux/MacOS:
-```git clone https://github.com/acura31/neovim-config.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim```
+- **Basic Utilities**:  
+  - `git`  
+  - `make`  
+  - `unzip`  
+  - A C compiler (e.g., `gcc`)  
 
-Windows:
-If using cmd: 
-```git clone https://github.com/acura31/neovim-config.nvim.git "%localappdata%\nvim"```
+- **Additional Tools**:  
+  - [`ripgrep`](https://github.com/BurntSushi/ripgrep#installation) (for fast file searching)  
+  - A clipboard tool (choose based on your platform):  
+    - `xclip` / `xsel` (Linux)  
+    - `win32yank` (Windows)  
+  - A [Nerd Font](https://www.nerdfonts.com/) (to display icons correctly).  
 
-If using powershell:
-```git clone https://github.com/acura31/neovim-config.nvim.git "${env:LOCALAPPDATA}\nvim"```
+---
 
-Boom! Done!
-```:Lazy``` to view current plugin status.
+## Installation  
+
+### For Linux/MacOS  
+
+Clone the configuration repository into your Neovim configuration directory:  
+```bash  
+git clone https://github.com/acura31/neovim-config.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim  
+```
+
+### For Windows
+
+Using Command Prompt (cmd):
+```cmd
+git clone https://github.com/acura31/neovim-config.nvim.git "%localappdata%\nvim"  
+```
+
+Using PowerShell:
+```powershell
+git clone https://github.com/acura31/neovim-config.nvim.git "${env:LOCALAPPDATA}\nvim"  
+```
+
+You're all set! Open Neovim and run the following command to manage and view the plugin status:
+```vim
+:Lazy
+```
+
