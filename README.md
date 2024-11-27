@@ -28,19 +28,19 @@ Before installing, ensure you have the following dependencies installed on your 
 
 Clone the configuration repository into your Neovim configuration directory:  
 ```bash  
-git clone https://github.com/acura31/neovim-config.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim  
+git clone https://github.com/acura31/neovim-config "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim  
 ```
 
 ### For Windows
 
 Using Command Prompt (cmd):
 ```cmd
-git clone https://github.com/acura31/neovim-config.nvim.git "%localappdata%\nvim"  
+git clone https://github.com/acura31/neovim-config "%localappdata%\nvim"  
 ```
 
 Using PowerShell:
 ```powershell
-git clone https://github.com/acura31/neovim-config.nvim.git "${env:LOCALAPPDATA}\nvim"  
+git clone https://github.com/acura31/neovim-config "${env:LOCALAPPDATA}\nvim"  
 ```
 
 You're all set! Open Neovim and run the following command to manage and view the plugin status:
