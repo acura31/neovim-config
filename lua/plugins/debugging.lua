@@ -32,7 +32,7 @@ return {
 			commented = true, -- Prefix virtual text with comment string
 		})
 
-		-- Keymaps
+		-- Keymaps customize them however you like
 		vim.keymap.set("n", "<leader>dt", dap.toggle_breakpoint, {})
 		vim.keymap.set("n", "<leader>dc", dap.continue, {})
 		vim.keymap.set("n", "<leader>do", dap.step_over, {})
