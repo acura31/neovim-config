@@ -2,8 +2,8 @@ vim.cmd("set expandtab")
 vim.cmd("set tabstop=2")
 vim.cmd("set softtabstop=2")
 vim.cmd("set shiftwidth=2")
-vim.opt.number = true -- Show the line number of the current line
---vim.opt.relativenumber = true -- Show relative line numbers for other lines
+vim.opt.number = true         -- Show the line number of the current line
+vim.opt.relativenumber = true -- Show relative line numbers for other lines
 
 local opts = { noremap = true, silent = true }
 
@@ -53,6 +53,8 @@ map("n", "<leader>tv", "<cmd>vsplit | terminal<CR>", { desc = "Open terminal ver
 
 -- Toggle terminal horizontally (split)
 map("n", "<leader>th", "<cmd>split | terminal<CR>", { desc = "Open terminal horizontally" })
+
+map("t", "<Esc>", "<C-\\><C-n>", { desc = "Exit terminal mode" })
 
 map("n", "<leader>sv", ":vs<Space>", { desc = "Vertical split file" })
 map("n", "<leader>sh", ":sp<Space>", { desc = "Horizontal split file" })
