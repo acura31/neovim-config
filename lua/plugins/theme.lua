@@ -1,10 +1,10 @@
 return {
 	{
-		"catppuccin/nvim", --set any theme you want
-		name = "catppuccin",
+		"olimorris/onedarkpro.nvim", --set any theme you want
+		name = "onedarkpro",
 		priority = 1000,
 		config = function()
-			vim.cmd.colorscheme("catppuccin")
+			vim.cmd("colorscheme onedark")
 		end,
 	},
 	{
