@@ -1,7 +1,6 @@
 # Neovim Configuration  
 
-A minimal Neovim configuration of mine very messy tho.
-Focused on python cuz it's pretty much what I know with C# but since I'm new at this I use Visual Studio for that one lol.
+This is my minimal Neovim config, it's a bit messy though. It's mostly set up for Python, HTML, CSS, JavaScript, React, and stuff like that.
 
 ## External Requirements  
 
